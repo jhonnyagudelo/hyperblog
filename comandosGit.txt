@@ -22,4 +22,4 @@ history ---> !+numero
 9. git commit -am "nombre" ---> sirve solo cuando ya han hecho un add a todos los archivos
 10. git branch ---> muestra el nombre de las ramas existentes
 11. git merge ---> fusiona las ramas (ejemplo: estar en la rama master y llamar con una development) git merge cabecera
-12. 
+12. git pull origin master
