@@ -3,3 +3,7 @@ comandos para git
 2. git config --global user.name "jhonny" ---> configurar el git 
 3. git config --global user.email "jhonny.agudelo@" ---> configurar el git 
 4. git show ---> mirar los cambios que se hicieron en un archivo
+5. git diff comparar repositorios con el numero del commit
+6. git reset nos permite volver a una version anterior
+    6.1 --hard volver a todo
+    6.2 --staff 
