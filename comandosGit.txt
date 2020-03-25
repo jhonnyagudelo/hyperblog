@@ -2,3 +2,4 @@ comandos para git
 1. git rm --cached + nombre ---> borrar contenido de stagein
 2. git config --global user.name "jhonny" ---> configurar el git 
 3. git config --global user.email "jhonny.agudelo@" ---> configurar el git 
+4. git show ---> mirar los cambios que se hicieron en un archivo
