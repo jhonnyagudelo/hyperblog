@@ -1,5 +1,7 @@
 comandos para git
 cambiar de disco duro cd /mnt/e
+history ---> !+numero
+
 
 1. git rm --cached + nombre ---> borrar contenido de Staging 
     1.1 git rm --force: Elimina los archivos de Git y del disco duro. 
@@ -17,4 +19,7 @@ cambiar de disco duro cd /mnt/e
 8. git chekout + commit ---> vuelve al archivo viejo
     8.1  git chekout master + nombre ---> vuelve al archivo actualizado
 
-9. 
+9. git commit -am "nombre" ---> sirve solo cuando ya han hecho un add a todos los archivos
+10. git branch ---> muestra el nombre de las ramas existentes
+11. git merge ---> fusiona las ramas (ejemplo: estar en la rama master y llamar con una development) git merge cabecera
+12. 
