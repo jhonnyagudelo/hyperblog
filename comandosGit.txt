@@ -51,4 +51,8 @@ Tienes que estar en el home de tu pc
 6. git push origin :refs/tags/ + nombre
 
 -----> manejo de ramas <-------
-1.
+1. git branch ---> muestra las ramas
+2. git show-branch ---> muestra las ramas y algo de info
+3. git show-branch --all muestra lo mismo al anterior con mas detalle
+4. gitk ---> muestra la consola visual
+5.
