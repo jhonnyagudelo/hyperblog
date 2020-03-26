@@ -55,4 +55,9 @@ Tienes que estar en el home de tu pc
 2. git show-branch ---> muestra las ramas y algo de info
 3. git show-branch --all muestra lo mismo al anterior con mas detalle
 4. gitk ---> muestra la consola visual
-5.
+5. git branch + nombre
+6. git checkout -b + nombre
+
+---->Flujo de trabajo<----
+1. settings - > colaborations
+
