@@ -76,4 +76,4 @@ Tienes que estar en el home de tu pc
         3.12 git push origin master
 
 -----> .gitignore <-----
-1.
+1. ingresar los archivos que no se deben de subir ejemplo : claves, imagenes entre otras
