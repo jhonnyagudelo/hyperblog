@@ -61,4 +61,19 @@ Tienes que estar en el home de tu pc
 ---->Flujo de trabajo<----
 1. settings - > colaborations
 2. pull request -->  estado intermedio antes de enviar el merge, para que los lideres revisen el codigo
-3.
+3. fork ----> tomar una copia del estado actual del proyecto
+        3.1 fork clonar repositorios
+        3.2 git clone ruta publica del proyecto
+        3.3 git diff
+        3.4 git commit -am "mensaje"
+        3.5 git push origin master
+        3.6 pull request
+        3.7 comparar los forks
+        3.8 git remote add upstream (link)
+        3.9 asi añadimos la fuente nueva rama para traer de github
+        3.10 git pull upstream master
+        3.11 git commit -am "fusion"
+        3.12 git push origin master
+
+-----> .gitignore <-----
+1.
