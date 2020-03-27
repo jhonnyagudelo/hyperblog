@@ -60,4 +60,5 @@ Tienes que estar en el home de tu pc
 
 ---->Flujo de trabajo<----
 1. settings - > colaborations
-
+2. pull request -->  estado intermedio antes de enviar el merge, para que los lideres revisen el codigo
+3.
