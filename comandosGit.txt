@@ -40,7 +40,8 @@ Tienes que estar en el home de tu pc
 2. git remote set-url origin url-ssh-del-repositorio-en-github
 
 -----> crear alias <-----
-1. alias arbol="git log --all --graph --decorate --oneline"   
+1. alias arbol="git log --all --graph --decorate --oneline" 
+2. alias superlog="git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"  
 
 -----> crear tags <-----
 1. git tag -a v0.1 -m "primeras clases del curso" + commit
@@ -57,6 +58,7 @@ Tienes que estar en el home de tu pc
 4. gitk ---> muestra la consola visual
 5. git branch + nombre
 6. git checkout -b + nombre
+7. git checkout -D + nombre --> eliminar 
 
 ---->Flujo de trabajo<----
 1. settings - > colaborations
@@ -77,3 +79,24 @@ Tienes que estar en el home de tu pc
 
 -----> .gitignore <-----
 1. ingresar los archivos que no se deben de subir ejemplo : claves, imagenes entre otras
+
+-----> rebase <-----
+1. # Cambiamos a la rama que queremos traer los cambios
+        git checkout experiment
+2. # Aplicamos rebase para traer los cambios de la rama que queremos 
+        git rebase master
+3. y viceversa   
+
+
+--------------------------- stash--------------------------------
+Es la forma temporal en que dejamos los archivos en staging para poder cambiarse de rama sin perde lo cambio que fueramos hecho
+
+1.git stash: es otro de los limbos, como el staging area. Para agregar los cambios estos deben estar en el staging area.
+2.git stash list: nos muestra la lista de stash que tengamos.
+3.git stash drop : nos permite borrar un stash.
+4.git stash pop: aplicamos el último cambio.
+5.git stash branch +nombre de rama nueva : es para poner la informacion del stash una nueva rama automatica
+
+-------->git clean<---------
+1. git clean --dry-run ----> buscar los archivos que va a borrar
+2. git clean -f ----> borra todos los archivos
